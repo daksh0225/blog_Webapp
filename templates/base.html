@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Udacity Templates</title>
+	<link rel="stylesheet" type="text/css" href="/static/header.css">
+	<link rel="stylesheet" type="text/css" href="/static/main.css">
+</head>
+<body>
+	<div class="header">
+		<div id="logo">
+			<h1>PBLOG</h1>
+		</div>
+	</div>
+	<div class="container">
+
+		<h1>Udacity Templates</h1>
+		{% block content %}
+		{% endblock %}
+	</div>
+	<div class="footer">
+		<div id="copyrt">Copyright &copy; Daksh Rawat</div>
+	</div>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="/__/firebase/6.6.1/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+	<!-- Initialize Firebase -->
+	<script src="/__/firebase/init.js"></script>
+</body>
+</html>

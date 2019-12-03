@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}	
+{% for art in arts %}
+	<div>{{art.subject}}</div>
+	<div>{{art.content}}</div>
+	<br><br>
+{% endfor %}
+{% endblock %}
